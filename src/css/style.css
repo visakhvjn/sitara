@@ -474,7 +474,7 @@ body
         display: block;
         visibility: visible;
     }
-}
+
 @media (min-width: 576px) and (max-width: 768px) {
     /* Show 3rd slide on sm if col-sm-6*/
     .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
