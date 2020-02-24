@@ -20,7 +20,19 @@
 	<script src="./src/js/app.js"></script>
 	<!-- Local Resources -->
 
-  
+	<!-- Light slider -->
+	<link rel="stylesheet" href="./src/css/lightslider.css">
+	<script src="./src/js/lightslider.js"></script>
+	<!-- Light slider -->
+
+	<script>
+
+		$(document).ready(function() 
+		{
+			$("#lightSlider").lightSlider(); 
+		});		
+
+	</script>
 
   </style>
 </head>
@@ -141,8 +153,8 @@
 			</div>
 			
 			<div class="row" id="B2">
-				<div class="col-lg-2"></div>
-				<div class="col-lg-4" id="B1">
+				<div class="col-lg-2" style="background:#efefef;position:relative;padding-left:20%;z-index:-111;margin-top:-15%;padding-bottom:80%"></div>
+				<div class="col-lg-4" id="B1" style="z-index: 11;position: relative;width: 200%;margin-left:-8%;margin-right:4%">
 					<div class="card" id="C1">						
 						<div class="card-body" id="C1">
 							<img src="./assets/img/S1/2.webp" id="IMG1"./>	
@@ -157,13 +169,14 @@
 						</div>
 						<div style="background: #222;font-size:200%;text-align: center;color:#fff" class="card-footer">Bangles</div>
 					</div>
-				</div>			
+				</div>
+				<div class="col-lg-2"></div>
 			</div>
 		</section>
 		<!-- SUB 1 -->
 
 		<!-- SUB 2 -->
-		<section id="S2">
+		<section id="S2" style="z-index: 888;margin-top:-30%">
 			<div class="row" id="B1">
 				<div class="col-lg-12" id="B1">
 					<center>
@@ -231,52 +244,108 @@
 					<img src="./assets/img/S4/4.png" style="width: 22%;margin-top: -3%" />
 				</center>
 				</div>
-				<div class="col-lg-12" style="">
-				<!-- BOOTSTRAP CAROUSEL -->
-				 <div class="top-content" id="B2" style="max-height: 100%;">						
-					<div id="carousel-example" class="carousel slide" data-ride="carousel" style="max-height: 100%; margin-bottom: 5%;">
-						<div class="carousel-inner row w-100 mx-auto" role="listbox">
-							<div style="margin:2%;" class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
-								<img src="./assets/img/white_background/jewellery.jpg" style="height: 230px;border:2px solid #222;max-width: 100%;">
-							</div>
-							<div style="margin:2%;" class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3" >
-								<img src="./assets/img/white_background/jewellery2.jpg" style="height: 230px;border:2px solid #222;max-width: 100%;">
-							</div>
-							<div style="margin:2%;" class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3" >
-								<img src="./assets/img/white_background/jewellery3.jpg" style="height: 230px;border:2px solid #222;max-width: 100%;">
-							</div>
-							<div style="margin:2%;" class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3" >
-								<img src="./assets/img/white_background/jewellery4.jpg" style="height: 230px;border:2px solid #222;max-width: 100%;">
-							</div>
-							<div style="margin:2%;" class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3" >
-								<img src="./assets/img/white_background/jewellery5.jpg" style="height: 230px;border:2px solid #222;max-width: 100%;">
-							</div>
-							<div style="margin:2%;" class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3" >
-								<img src="./assets/img/white_background/jewellery6.jpg" style="height: 230px;border:2px solid #222;max-width: 100%;">
-							</div>
-							<div style="margin:2%;" class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3" >
-								<img src="./assets/img/white_background/jewellery7.jpg" style="height: 230px;border:2px solid #222;max-width: 100%;">
-							</div>
-							<div style="margin:2%;" class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3" >
-								<img src="./assets/img/white_background/jewellery8.jpg" style="height: 230px;border:2px solid #222;max-width: 100%;">
-							</div>
-						</div>
-						<a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev" style="background-color: transparent;">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
-					</div>						
-				</div>
-				<br /><br /><br />
-				<!-- BOOTSTRAP CAROUSEL --> 
-				 
-				
-
-
+			</div>
+			<div class="row">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8" style="margin-top:-4%;margin-bottom:10%">								
+					<ul id="lightSlider">
+						<li>
+							<div class="card" style="border:0px">
+								<center>
+								<div class="card-body"><img src="./assets/img/S4/1.jpg" style="max-width: 100%;width:250px;height:250px;border:1px solid #222;box-shadow:0px 1px 2px"></div> 
+								<p style="font-weight: bold;font-size: 120%;">Oxidised Bangles</p>
+								</center>
+							</div>																			
+						</li>
+						<li>
+							<div class="card" style="border:0px">
+								<center>
+								<div class="card-body"><img src="./assets/img/S4/2.jpg" style="max-width: 100%;width:250px;height:250px;border:1px solid #222;box-shadow:0px 1px 2px"></div> 
+								<p style="font-weight: bold;font-size: 120%;">Oxidised Earring</p>
+								</center>
+							</div>																			
+						</li>
+						<li>
+							<div class="card" style="border:0px">
+								<center>
+								<div class="card-body"><img src="./assets/img/S4/3.jpg" style="max-width: 100%;width:250px;height:250px;border:1px solid #222;box-shadow:0px 1px 2px"></div> 
+								<p style="font-weight: bold;font-size: 120%;">Oxidised Earring</p>
+								</center>
+							</div>																			
+						</li>
+						<li>
+							<div class="card" style="border:0px">
+								<center>
+								<div class="card-body"><img src="./assets/img/S4/8.jpg" style="max-width: 100%;width:250px;height:250px;border:1px solid #222;box-shadow:0px 1px 2px"></div> 
+								<p style="font-weight: bold;font-size: 120%;">Oxidised Earring</p>
+								</center>
+							</div>																			
+						</li>
+						<li>
+							<div class="card" style="border:0px">
+								<center>
+								<div class="card-body"><img src="./assets/img/S4/5.jpg" style="max-width: 100%;width:250px;height:250px;border:1px solid #222;box-shadow:0px 1px 2px"></div> 
+								<p style="font-weight: bold;font-size: 120%;">Oxidised Earring</p>
+								</center>
+							</div>																			
+						</li>
+						<li>
+							<div class="card" style="border:0px">
+								<center>
+								<div class="card-body"><img src="./assets/img/S4/6.jpg" style="max-width: 100%;width:250px;height:250px;border:1px solid #222;box-shadow:0px 1px 2px"></div> 
+								<p style="font-weight: bold;font-size: 120%;">Oxidised Earring</p>
+								</center>
+							</div>																			
+						</li>
+						<li>
+							<div class="card" style="border:0px">
+								<center>
+								<div class="card-body"><img src="./assets/img/S4/7.jpg" style="max-width: 100%;width:250px;height:250px;border:1px solid #222;box-shadow:0px 1px 2px"></div> 
+								<p style="font-weight: bold;font-size: 120%;">Oxidised Earring</p>
+								</center>
+							</div>																			
+						</li>
+						<li>
+							<div class="card" style="border:0px">
+								<center>
+								<div class="card-body"><img src="./assets/img/S4/9.jpg" style="max-width: 100%;width:250px;height:250px;border:1px solid #222;box-shadow:0px 1px 2px"></div> 
+								<p style="font-weight: bold;font-size: 120%;">Oxidised Earring</p>
+								</center>
+							</div>																			
+						</li>
+						<li>
+							<div class="card" style="border:0px">
+								<center>
+								<div class="card-body"><img src="./assets/img/S4/10.jpg" style="max-width: 100%;width:250px;height:250px;border:1px solid #222;box-shadow:0px 1px 2px"></div> 
+								<p style="font-weight: bold;font-size: 120%;">Oxidised Bangles</p>
+								</center>
+							</div>																			
+						</li>
+						<li>
+							<div class="card" style="border:0px">
+								<center>
+								<div class="card-body"><img src="./assets/img/S4/11.jpg" style="max-width: 100%;width:250px;height:250px;border:1px solid #222;box-shadow:0px 1px 2px"></div> 
+								<p style="font-weight: bold;font-size: 120%;">Oxidised Earring</p>
+								</center>
+							</div>																			
+						</li>
+						<li>
+							<div class="card" style="border:0px">
+								<center>
+								<div class="card-body"><img src="./assets/img/S4/12.jpg" style="max-width: 100%;width:250px;height:250px;border:1px solid #222;box-shadow:0px 1px 2px"></div> 
+								<p style="font-weight: bold;font-size: 120%;">Oxidised Earring</p>
+								</center>
+							</div>																			
+						</li>
+						<li>
+							<div class="card" style="border:0px">
+								<center>
+								<div class="card-body"><img src="./assets/img/S4/7.jpg" style="max-width: 100%;width:250px;height:250px;border:1px solid #222;box-shadow:0px 1px 2px"></div> 
+								<p style="font-weight: bold;font-size: 120%;">Oxidised Earring</p>
+								</center>
+							</div>																			
+						</li>							
+					  </ul>
 				</div>
 			</div>
 			<div class="row">
