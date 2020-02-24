@@ -174,7 +174,7 @@ body
     height:100px;
     width:170px;
     background:#eee;
-    margin-left:-30%;
+    margin-left:-50%;
     margin-top:20%;
     opacity: 0.7;
     z-index:-5555
@@ -223,6 +223,8 @@ body
     display: block;
     font-weight: bold;
     z-index: 999 !important;
+    position: relative;
+    margin-left: -35%;    
 }
 
 /* SUB 2 */
