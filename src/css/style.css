@@ -3,7 +3,57 @@ body
     font-family: 'Times New Roman', Times, serif;
 
 }
+/* NAVBAR */
+#NAV #B1
+{
+    padding: 1%;
+    
+}
 
+#NAV #B1 #B1 #IMG1
+{
+    max-width: 100%;
+    height: 120px;
+}
+
+#NAV #B1 .col-lg-2
+{
+    font-size: 20px;
+    margin-top: -1%;
+    
+}
+
+#NAV li
+{
+    margin-top: 50px;
+    font-size: large;
+    margin-right: 60px;
+    font-weight: bold;
+
+}
+#NAV #B1 #B2 
+{
+    padding-top: 2%;
+}
+
+#NAV #B1 #B2 #btn1
+{
+    margin-top: 50px;
+    font-size:110%;
+    font-weight: bold;
+    letter-spacing: 3px
+}
+/* NAVBAR */
+
+/* BANNER */
+#S0
+{
+    margin:0px;
+    padding:0px;
+    max-height: 100%;
+
+}
+/* BANNER */
 
 /* SUB 1: Categories */
 #S1 #B1
@@ -24,11 +74,70 @@ body
     letter-spacing: 4px;
 }
 
-.carousel-inner img {
+#S1 #B1 #B1 #IMG1
+{
     max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
+    margin-top:-4%;
+    width: 25%;
+    height: 200px;
 }
+
+#S1 #B2
+{
+    margin-top:-3%;
+    margin-bottom: 5%
+}
+/* Earrings */
+
+ #S1 #B2 #B1
+ {
+    padding: 5%;
+ }
+
+ #S1 #B2 #B1 #C1 #C1 #IMG1
+ {
+     max-width: 100%;
+
+ }
+
+ #S1 #B2 #B1 #C1 #C2
+ {
+    background: #555634;
+    font-size:200%;
+    text-align: center;
+    color:#fff
+ }
+
+ /* Earrings */
+
+ /* Bangles */
+
+ #S1 #B2 #B2
+ {
+    padding: 5%;
+ }
+
+ #S1 #B2 #B2 #C1 #C1 #IMG1
+ {
+    max-width: 100%;
+ }
+
+ #S1 #B2 #B2 #C1 #C2
+ {
+    background: #222;
+    font-size:200%;
+    text-align: center;
+    color: #FFF; 
+ }
+
+
+ /* #S1 #B1 #B3
+ {
+     margin-top: 0%;
+     margin-left: 25px;
+     height: 50px;
+ } */
+
 /* SUB 1: Categories */
 
 
@@ -41,12 +150,51 @@ body
     letter-spacing: 4px;
 }
 
+#S2 #B1 #B1 #IMG1
+{
+    max-width: 100%;
+    margin-top:-4%;
+    width: 25%; 
+}
+
 #S2 #B2
 {
     padding-left:9%;
     padding-right: 9%;
 }
 
+#S2 #B2 #IMG1
+{
+    max-width: 100%;
+    z-index: 0;
+    height: 450px;
+}
+
+#S2 #B2 #B1 #B1
+{
+    height:100px;
+    width:170px;
+    background:#eee;
+    margin-left:-30%;
+    margin-top:20%;
+    opacity: 0.7;
+    z-index:-5555
+}
+
+#S2 #B2 #B1 #B2
+{
+    margin-top: -50%;
+    z-index: 999
+}
+
+/* #S2 #B2 #B1 #B2 #IMG1
+{
+    width:580px;
+    margin-left:-75%;
+    z-index: 999;
+    border:20px solid #fff;
+    margin-top:30%;
+} */
 #S2 #B2 #P1
 {
     padding-top:2%;
